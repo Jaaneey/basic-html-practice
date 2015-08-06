@@ -1,20 +1,22 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>My Webpage</title>
 <style>
 	option {font-family: comic;
 			font-size: 2em;}
-	.first {float: left;}
-	.second {float: right;}
-	.third {display: inline}
+	.first {float: left;
+			padding: 0 100px;}
+	.second {display: inline-block;}
+	.third { margin: 50px 100px;}
 </style>
 </head>
+
 <body>
-<font face="Comic Sans MS">
-<h2>Details</h2>
-<div class="first">
-<select size=7 name="intrusive">
+	<font face="Comic Sans MS">
+	<h2>Details:</h2>
+	<div class="first">
+		<select size=7 name="intrusive">
 			<option>Pets:</option>
 			<option>Puppies</option>
 			<option>Cats</option>
@@ -22,11 +24,11 @@
 			<option>Dogs</option>
 			<option> Capybaras</option>
 			<option>Giraffes</option>
-</select>
-</div>
+		</select>
+	</div>
 
-<div class="second">
-<select size=8 name="intrusive">
+	<div class="second">
+		<select size=8 name="intrusive">
 			<option>Cities:</option>
 			<option>San Francisco</option>
 			<option>New York</option>
@@ -35,14 +37,12 @@
 			<option>Los Angeles</option>
 			<option>Palo Alto</option>
 			<option>Sausalito</option>
-</select>
-</div>
-
-<div class="third"
-<select size=2 name="intrusive">
-			<option>View Additional Details</option>
 		</select>
-</div>
+	</div>
+
+	<div>
+		<button name="button" class="third">View Additional Details </button>
+	</div
 
 </font>
 </body>
